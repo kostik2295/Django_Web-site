@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    .helptext {
+        visibility: hidden;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    ul {
+        visibility: hidden;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .errorlist{
+        visibility: visible;
+        position: absolute;
+        left: 450px;
+        top: 130px;
+        font-weight: bold;
+    }
+</style>
+<form method="post" class="form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="s_btn_1">Зарегистрироваться</button>
+</form>
+{% endblock content %}

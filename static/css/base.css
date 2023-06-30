@@ -1,0 +1,132 @@
+button {
+    position: absolute;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all .5s;
+    background-color: #ffffff;
+}
+
+button:hover {
+    background-color: red;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+.pic{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.abc{
+    font-size: 40px;
+}
+
+.s_btn_2{
+    width: 220px;
+    height: 40px;
+    top: 375px;
+    left: 40px;
+}
+
+label {
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+p{
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: italic;
+    font-weight:500px;
+    font-size: 30px;
+    
+}
+
+.textF{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.first{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 42.3%;
+}
+
+table {
+    position: absolute;
+    top: 100px;
+    font-size: 25px;
+}
+
+select {
+    width: 200px;
+    height: 25px;
+}
+
+/* Главная страница */
+
+.h_btn_1 {
+    width: 220px;
+    height: 40px;
+    top: 300px;
+}
+
+.h_btn_2 {
+    width: 220px;
+    height: 40px;
+    top: 450px;
+}
+
+.h_btn_3 {
+    width: 220px;
+    height: 40px;
+    top: 600px;
+}
+
+/* Таблица */
+.text {
+    position: absolute;
+    font-style: bold;
+    font-size: 35px;
+}
+
+.e_p_1 {
+    left: 575px;
+    top: 0px;
+}
+
+/* Форма входа */
+
+.form {
+    position: absolute;
+    width: 600px;
+    left: 650px;
+    top: 150px;
+}
+
+.l_btn_1 {
+    width: 220px;
+    height: 40px;
+    top: 275px;
+    left: 50px;
+}
+
+.s_btn_1 {
+    width: 220px;
+    height: 40px;
+    top: 375px;
+    left: 50px;
+}

@@ -1,0 +1,16 @@
+{% load static %}
+<html>
+    <head>
+        <title>Тайм менеджер</title>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <style>
+            body{
+                background: url("{% static 'images/fon1.jpg' %}");
+            }
+        </style>
+    </head>
+    <body>
+        {% block content %}
+        {% endblock content %}
+    </body>
+</html>

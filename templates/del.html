@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p class="textF" >Ты дествительно хочешь удалить информацию о {{employees.employe}}?</p>
+<form method="post" class="form">
+    {% csrf_token %}
+    <button class="l_btn_1">Удалить</button>
+</form>
+<form action="{% url 'table' %}">
+    <button class="l_btn_1 first">Отмена</button>
+</form>
+{% endblock content %}
